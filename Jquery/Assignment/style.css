@@ -10,13 +10,11 @@
  text-align: center;
  margin: auto;
 }
-h3{
-    background: rgb(190, 190, 32);
-}
 .img{
     align-items:center ;
 }
 h3{
     margin: 50px 0;
     padding: 10px 0;
+    background: rgb(190, 190, 32);
 }
