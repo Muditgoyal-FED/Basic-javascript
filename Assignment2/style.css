@@ -1,0 +1,76 @@
+* {
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h4 {
+    text-align: center;
+}
+
+hr {
+    width: 80%;
+    border: 2px solid black;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+    line-height: 40px;
+    background-color: rgb(85, 81, 81);
+    padding: 10px 0;
+}
+
+div[id*="que"] {
+    background-color: #030303;
+    padding: 2px 20px;
+    margin: 30px auto;
+}
+
+p,
+li,
+dt,
+dd,
+blockquote,
+.ansInfo,
+form {
+    color: white;
+    font-size: 20px;
+}
+
+li {
+    list-style-position: inside;
+}
+
+pre {
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.queInfo,
+.queInfo li {
+    font-size: 15px;
+    background-color: rgb(13, 80, 224);
+    padding: 5px;
+}
+
+img {
+    width: 10%;
+}
